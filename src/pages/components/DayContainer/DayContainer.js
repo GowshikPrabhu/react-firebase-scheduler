@@ -3,7 +3,7 @@ import HourBox from '../HourBox/HourBox';
 import './DayContainer.css';
 
 const DayContainer = ({ day, onSelect, selectedHours }) => {
-  let hours = Array.from({ length: 24 }, (_, i) => i + 1);
+  let hours = [...Array(25).keys()];
 
   return (
     <div className='day-container'>
