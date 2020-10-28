@@ -1,0 +1,18 @@
+.day-box {
+  height: 50px;
+  width: 70px;
+  border: 1px solid #333333;
+  padding: 16px 10px;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.day-box.selected {
+  background-color: #3ed83e;
+  color: #ffffff;
+}
